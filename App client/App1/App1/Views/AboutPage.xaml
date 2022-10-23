@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Views.AboutPage"
+             xmlns:vm="clr-namespace:App1.ViewModels"
+             Title="{Binding Title}"
+             BackgroundImageSource="bg.jpg">
+    
+    <ContentPage.BindingContext>
+        <vm:AboutViewModel />
+    </ContentPage.BindingContext>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="400" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <ScrollView Grid.Row="0">
+            <Entry Placeholder="Введите ip-адрес устройства" 
+                   x:Name="Textbox" 
+                   Text="192.168.108.190"/>
+        </ScrollView>
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" 
+                         Padding="30,24,30,24" 
+                         Spacing="10">
+                <Button Clicked="Button_Clicked_3" 
+                        x:Name="b_connect"/>
+            </StackLayout>
+        </ScrollView>
+        <ScrollView Grid.Row="2">
+            <Image Source="" />
+        </ScrollView>
+        <ScrollView Grid.Row="3">
+            <StackLayout Orientation="Horizontal" 
+                         Padding="30,24,30,24" 
+                         Spacing="25">
+                <Button Text="⏮"
+                        Clicked="Button_Clicked"
+                        x:Name="b_previus"/>
+                <Button Text="⏯"
+                        Clicked="Button_Clicked_1"
+                        x:Name="b_start"/>
+                <Button Text="⏭"
+                        Clicked="Button_Clicked_2"
+                        x:Name="b_next"/>
+            </StackLayout>
+        </ScrollView>
+        <ScrollView Grid.Row="4">
+            <StackLayout Orientation="Vertical" 
+                         Padding="30,24,30,24" 
+                         Spacing="10">
+                <Label Text="Гроскость:"/>
+                <Slider Minimum="0" 
+                        Maximum="100" 
+                        ValueChanged="Slider_ValueChanged"
+                        x:Name="Slider"/>
+            </StackLayout>
+        </ScrollView>
+        
+    </Grid>
+
+</ContentPage>
