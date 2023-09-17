@@ -12,18 +12,12 @@
     
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
             <RowDefinition Height="100"/>
             <RowDefinition Height="400" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
         <ScrollView Grid.Row="0">
-            <Entry Placeholder="Введите ip-адрес устройства" 
-                   x:Name="Textbox" 
-                   Text="192.168.108.190"/>
-        </ScrollView>
-        <ScrollView Grid.Row="1">
             <StackLayout Orientation="Vertical" 
                          Padding="30,24,30,24" 
                          Spacing="10">
@@ -31,10 +25,10 @@
                         x:Name="b_connect"/>
             </StackLayout>
         </ScrollView>
-        <ScrollView Grid.Row="2">
+        <ScrollView Grid.Row="1">
             <Image Source="" />
         </ScrollView>
-        <ScrollView Grid.Row="3">
+        <ScrollView Grid.Row="2">
             <StackLayout Orientation="Horizontal" 
                          Padding="30,24,30,24" 
                          Spacing="25">
@@ -49,7 +43,7 @@
                         x:Name="b_next"/>
             </StackLayout>
         </ScrollView>
-        <ScrollView Grid.Row="4">
+        <ScrollView Grid.Row="3">
             <StackLayout Orientation="Vertical" 
                          Padding="30,24,30,24" 
                          Spacing="10">

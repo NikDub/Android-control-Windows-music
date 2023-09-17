@@ -3,7 +3,7 @@
   <PropertyGroup>
     <SelectedDevice>Xiaomi 2201116PG</SelectedDevice>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
-    <ActiveDebugProfile>Xiaomi 2201116PG %28Android 11.0 — API 30%29</ActiveDebugProfile>
+    <ActiveDebugProfile>Xiaomi 2201116PG %28Android 13.0 — API 33%29</ActiveDebugProfile>
     <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>
