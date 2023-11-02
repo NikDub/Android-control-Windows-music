@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qrcode", "qrcode\qrcode.csproj", "{C1BD65D0-B293-42F8-A3DF-19EBFEC08F44}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{A584314D-918B-44E4-84C7-1B864023EA7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{C1BD65D0-B293-42F8-A3DF-19EBFEC08F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1BD65D0-B293-42F8-A3DF-19EBFEC08F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1BD65D0-B293-42F8-A3DF-19EBFEC08F44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A584314D-918B-44E4-84C7-1B864023EA7C}.Debug|Any CPU.ActiveCfg = Debug
+		{A584314D-918B-44E4-84C7-1B864023EA7C}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
